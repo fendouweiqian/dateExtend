@@ -1,7 +1,9 @@
 /*!
  * jQuery Date Plugin v1.0.0
  * https://github.com/fendouweiqian/dateExtend
- *
+ * Example
+ *      $.dateExtend.config={ format:'yyyy-MM-dd' };  // 设置显示格式, 可选, 不设置默认 年月日
+ *      $.dateExtend.getCurrentMonth();
  * Copyright 2019 Mr Li
  */
 (function ($, document, undefined) {
